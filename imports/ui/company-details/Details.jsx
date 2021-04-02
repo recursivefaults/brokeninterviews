@@ -20,20 +20,22 @@ export const CompanyDetails = () => {
 
     return (
     <>
-        <Row>
+        <section id="company-info" className="text-center">
             <h1>{companyDetails.name}</h1>
-        </Row>
-        <Row>
-            <Badge variant="success">{companyDetails.grade}</Badge>
-            Last Updated: {companyDetails.updated} - Updates: {companyDetails.count}
-        </Row>
-        <Button> Add a Question </Button>
-        <Button> Share My Experience </Button>
-
-        <h2>Questions</h2>
-        <Questions questions={companyDetails.questions} />
-        <h2>Experiences</h2>
-        <Experiences experiences={companyDetails.experiences} />
+            <p>
+                Last Updated: {companyDetails.updated} - Updates: {companyDetails.count}
+            </p>
+            <Button> Add a Question </Button>
+            <Button> Share My Experience </Button>
+        </section>
+        <section id="questions">
+            <h2>Questions</h2>
+            <Questions questions={companyDetails.questions} />
+            </section>
+        <section id="experiences">
+            <h2>Experiences</h2>
+            <Experiences experiences={companyDetails.experiences} />
+        </section>
     </>
     );
 };

@@ -1,4 +1,34 @@
-body {
-  padding: 10px;
-  font-family: sans-serif;
+#questions {
+    font-size: 0.9rem;
 }
+
+#questions .inline {
+    display: flex;
+}
+
+#questions .pills {
+    margin-right: 1.5rem;
+    font-size: 0.3rem;
+    display: block;
+}
+
+#questions .voting {
+    width: 10%;
+    padding-right: 1rem;
+    text-align: center;
+    font-size: 0.3rem;
+}
+
+#questions .question {
+    width:90%;
+}
+
+section {
+    padding-bottom: 2rem
+}
+
+#experiences .experience-date {
+    padding-left: 1.5rem;
+    font-size: .03rem;
+}
+

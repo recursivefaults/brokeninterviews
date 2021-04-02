@@ -6,7 +6,7 @@ export const ExperienceItem = ({experience}) => (
     <ListGroup.Item>
         <div className="experience-meta">
             <a href="mailto:">{experience.username}</a>
-            <span className="experience-date">{experience.updated}</span>
+            <small className="experience-date">{experience.created}</small>
         </div>
         <div className="experience-story">
             <p>{experience.story}</p>

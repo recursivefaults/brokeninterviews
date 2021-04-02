@@ -6,14 +6,16 @@ export const searchCompanies = (searchTerm) => {
             name: 'Some Company',
             grade: 'F',
             update: '01-02-2021',
-            count: 2344
+            question_count: 2344,
+            experience_count: 2344
         },
         {
             _id: 'boopboop',
             name: 'Other Company',
             grade: 'A',
             update: '01-02-2021',
-            count: 2344
+            question_count: 2344,
+            experience_count: 2344
         }
     ];
 
